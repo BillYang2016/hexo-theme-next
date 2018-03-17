@@ -38,6 +38,15 @@
                   {% endif %}
                 {% endfor %}
                 {{ _p('counter.tag_cloud', visibleTags) }}
+                <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+                <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+                <div class="widget-wrap">
+                  <div id="myCanvasContainer" class="widget tagcloud">
+                    <canvas width="600" height="600" id="resCanvas" style>
+                      {{ list_tags() }}
+                    </canvas>
+                  </div>
+                </div>
             </div>
             <div class="tag-cloud-tags">
               {{ tagcloud({min_font: 12, max_font: 30, amount: 300, color: true, start_color: '#ccc', end_color: '#111'}) }}
