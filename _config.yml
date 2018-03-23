@@ -66,11 +66,11 @@ footer:
   icon: 
     # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons
     # `heart` is recommended with animation in red (#ff0000).
-    name: user
+    name: heart
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
-    color: "#66ccff"
+    color: "#ff0000"
 
   # If not defined, will be used `author` from Hexo main config.
   copyright: Bill Yang 以 <a class="theme-link" target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/deed.zh">CC0</a> 协议发布
