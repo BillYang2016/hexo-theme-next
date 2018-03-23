@@ -68,9 +68,9 @@ footer:
     # `heart` is recommended with animation in red (#ff0000).
     name: user
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
-    color: "#808080"
+    color: "#66ccff"
 
   # If not defined, will be used `author` from Hexo main config.
   copyright: Bill Yang 以 <a class="theme-link" target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/deed.zh">CC0</a> 协议发布
@@ -158,8 +158,8 @@ social:
   E-Mail: mailto:ym13883407586@outlook.com || envelope
   GitHub: https://github.com/BillYang2016 || github
   Coding: https://coding.net/u/Bill_Yang_2016 || git-square
+  网易云音乐: http://music.163.com/#/user/home?nickname=Bill_Yang2016 || music
   bilibili: https://space.bilibili.com/233682260/#/ || youtube-play
-  CSDN: http://blog.csdn.net/Bill_Yang_2016 || terminal
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
