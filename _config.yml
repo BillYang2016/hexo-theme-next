@@ -35,10 +35,10 @@ cache:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/logo.png
-  medium: /images/logo.png
-  apple_touch_icon: /images/logo.png
-  safari_pinned_tab: /images/logo.png
+  small: /images/logo.jpg
+  medium: /images/logo.jpg
+  apple_touch_icon: /images/logo.jpg
+  safari_pinned_tab: /images/logo.jpg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -357,7 +357,7 @@ codeblock:
     style:
 
 # Use icon instead of the symblo # to indicate the tag at the bottom of the post
-tag_icon: false
+tag_icon: true
 
 # Wechat Subscriber
 wechat_subscriber:
@@ -648,7 +648,7 @@ valine:
   appkey: JBz9GW9kidjPp7gW5Y6VIgfe
   notify: true # mail notifier , https://github.com/xCss/Valine/wiki
   verify: true # Verification code
-  placeholder: Fubuki wa neko.
+  placeholder: 吹雪は猫~
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
