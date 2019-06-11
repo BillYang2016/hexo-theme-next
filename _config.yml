@@ -97,7 +97,7 @@ creative_commons:
   license: by-nc-sa
   sidebar: true
   post: true
-  language:
+  language: deed.zh
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
@@ -222,7 +222,7 @@ social_icons:
 
 # Blog rolls
 links_icon: link
-links_title: 我的战友们
+links_title: 我的朋友们
 # links_layout: block
 links_layout: inline
 links:
@@ -238,11 +238,11 @@ avatar:
   # You can also use other linking images.
   url: /images/avatar.gif
   # If true, the avatar would be dispalyed in circle.
-  rounded: false
+  rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
   opacity: 1
   # If true, the avatar would be rotated with the cursor.
-  rotated: false
+  rotated: true
 
 # Table Of Contents in the Sidebar
 toc:
@@ -350,9 +350,9 @@ codeblock:
   border_radius:
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result
-    show_result: false
+    show_result: true
     # Style: only 'flat' is currently available, leave it blank if you prefer default theme
     style:
 
@@ -369,13 +369,13 @@ wechat_subscriber:
 reward_settings:
   # If true, reward would be displayed in every article by default.
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
-  enable: false
-  animation: false
-  #comment: Donate comment here
+  enable: true
+  animation: true
+  comment: 本篇文章有用吗？有用还不快点击！
 
 reward:
-  #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
+  wechatpay: /images/wechatpay.png
+  alipay: /images/alipay.png
   #bitcoin: /images/bitcoin.png
 
 # Related popular posts
@@ -550,7 +550,7 @@ pangu: false
 # Dependencies: https://github.com/theme-next/theme-next-quicklink
 # Visit https://github.com/GoogleChromeLabs/quicklink for details
 quicklink:
-  enable: false
+  enable: true
 
   # Quicklink (quicklink.umd.js script) is loaded on demand
   # Add `quicklink: true` in Front-matter of the page or post you need
