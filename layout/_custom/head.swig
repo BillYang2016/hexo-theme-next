@@ -1,6 +1,6 @@
 <!-- jquery -->
 
-<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
 <!-- 打字礼花及震动特效 -->
 
@@ -23,7 +23,3 @@
 <script type="text/javascript">
     loadlive2d("live2d", "/live2d/assets/pio.model.json");
 </script>
-
-<!-- hitokoto -->
-
-<script src="/lib/hitokoto/hitokoto.js"></script>
