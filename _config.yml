@@ -226,9 +226,8 @@ links_title: 我的朋友们
 # links_layout: block
 links_layout: inline
 links:
-  pointedpoints: http://pointedpoints.ga/
-  Cedric: https://Cedric341561.coding.me
-  Summer_Wang: http://summerwxk.lofter.com/
+  pointedpoints: http://pointedpoints.github.io/
+  魏启大陆: http://wekyland.fun/
   更多朋友们: /friends/
 
 # Sidebar Avatar
@@ -371,7 +370,7 @@ reward_settings:
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
   enable: true
   animation: true
-  comment: 本篇文章有用吗？有用还不快点击！
+  comment: 姥爷们赏瓶冰阔落吧~
 
 reward:
   wechatpay: /images/wechatpay.png
