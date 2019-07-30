@@ -63,7 +63,7 @@ footer:
     color: "#ff0000"
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright: Bill Yang 以 <a class="theme-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA</a> 协议发布
+  copyright: Bill Yang 以 <a class="theme-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a> 协议发布
   # -------------------------------------------------------------
 
   powered:
@@ -227,6 +227,8 @@ links_title: 我的朋友们
 links_layout: inline
 links:
   pointedpoints: http://pointedpoints.github.io/
+  KEKE046: https://keke046.coding.me/
+  Imperfect: https://imperfect_zx.coding.me/
   魏启大陆: http://wekyland.fun/
   更多朋友们: /friends/
 

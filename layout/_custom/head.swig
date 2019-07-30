@@ -16,10 +16,10 @@
 
 <div class="waifu">
     <div class="waifu-tips"></div>
-    <canvas id="live2d" width="240" height="210" class="live2d"></canvas>
+    <canvas id="live2d" width="240" height="350" class="live2d"></canvas>
 </div>
 <script async src="/lib/poster-girl/waifu-tips.js"></script>
 <script src="/lib/poster-girl/live2d.js"></script>
 <script type="text/javascript">
-    loadlive2d("live2d", "/live2d/assets/pio.model.json");
+    loadlive2d("live2d", "/live2d/assets/kanna.model.json");
 </script>
