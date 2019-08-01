@@ -1,7 +1,7 @@
 <script type="text/x-mathjax-config">
-  {% if theme.math.mathjax.mhchem %}
+  {%- if theme.math.mathjax.mhchem %}
     MathJax.Ajax.config.path['mhchem'] = '{{ theme.math.mathjax.mhchem }}';
-  {% endif %}
+  {%- endif %}
 
   MathJax.Hub.Config({
     tex2jax: {
@@ -10,25 +10,25 @@
       skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
     },
     TeX: {
-      {% if theme.math.mathjax.mhchem %}
+      {%- if theme.math.mathjax.mhchem %}
         extensions: ['[mhchem]/mhchem.js'],
-      {% endif %}
+      {%- endif %}
       equationNumbers: {
         autoNumber: 'AMS'
       }
     }
   });
-  
+
   MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
     MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
       if (data.display) {
         var next = data.script.nextSibling;
         while (next && next.nodeName.toLowerCase() === '#text') {
-		  next = next.nextSibling
-		}
+          next = next.nextSibling;
+        }
         if (next && next.nodeName.toLowerCase() === 'br') {
-		  next.parentNode.removeChild(next)
-	    }
+          next.parentNode.removeChild(next);
+        }
       }
     });
   });
