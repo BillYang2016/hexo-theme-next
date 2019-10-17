@@ -30,13 +30,7 @@
         {%- if page.type === 'tags' %}
           <div class="tag-cloud">
             <div class="tag-cloud-title">
-              {%- set visibleTags = 0 %}
-              {%- for tag in site.tags %}
-                {%- if tag.length %}
-                  {%- set visibleTags += 1 %}
-                {%- endif %}
-              {%- endfor %}
-              {{ _p('counter.tag_cloud', visibleTags) }}
+              {{ _p('counter.tag_cloud', site.tags.length) }}
               <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
               <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
               <div class="widget-wrap">
@@ -46,7 +40,6 @@
                   </canvas>
                 </div>
               </div>
-              {{ _p('counter.tag_cloud', site.tags.length) }}
             </div>
             <div class="tag-cloud-tags">
               {{ tagcloud({min_font: theme.tagcloud.min, max_font: theme.tagcloud.max, amount: theme.tagcloud.amount, color: true, start_color: theme.tagcloud.start, end_color: theme.tagcloud.end}) }}
