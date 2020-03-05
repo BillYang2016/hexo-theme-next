@@ -484,7 +484,7 @@ exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification:
+google_site_verification: ghOTm3Im1Awef9otcmhxaBXZs5PlL-aApB3Zeo2qVrg
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
@@ -688,13 +688,13 @@ add_this_id:
 
 # Google Analytics
 google_analytics:
-  tracking_id: # <app_id>
+  tracking_id: UA-157912381-1
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
-  only_pageview: false
+  only_pageview: true
 
 # Baidu Analytics
-baidu_analytics: # <app_id>
+baidu_analytics: d538e1e81ada366563b03354efffd84c
 
 # Growingio Analytics
 growingio_analytics: # <project_id>
@@ -1040,3 +1040,18 @@ css: css
 js: js
 images: images
 
+# Anchor
+anchor:
+  enable: true
+  color: '#0e83cd'
+  position: right # If left, anchors will always be visible.
+  margin: 7px
+  text: '#'
+  icon:
+    # If true, the `text` option will be ignored.
+    enable: true 
+    # By default, NexT has built-in FontAwesome support.
+    # This option means `font-family: FontAwesome`, so DO Not change it.
+    # Also you can choose ForkAwesome, but that's another story.
+    font: FontAwesome
+    content: \f0c1 # CSS content for FontAwesome & ForkAwesome.
